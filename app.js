@@ -8,34 +8,15 @@
    ============================================================ */
 
 /* ===== CUSTOM CURSOR (desktop only) ===== */
-const cursor    = document.getElementById('cursor');
-const cursorRing = document.getElementById('cursorRing');
-let mx = 0, my = 0, rx = 0, ry = 0;
-
-document.addEventListener('mousemove', e => {
-  mx = e.clientX;
-  my = e.clientY;
-});
-
-function animateCursor() {
-  // Smooth lag for the ring
-  rx += (mx - rx) * 0.15;
-  ry += (my - ry) * 0.15;
-  if (cursor)     { cursor.style.left = mx + 'px'; cursor.style.top = my + 'px'; }
-  if (cursorRing) { cursorRing.style.left = rx + 'px'; cursorRing.style.top = ry + 'px'; }
-  requestAnimationFrame(animateCursor);
-}
-animateCursor();
+// Custom cursor removed; browser default cursor is used.
 
 // Enlarge cursor on interactive elements
 document.querySelectorAll('a, button, .category-card, .product-card, .why-card').forEach(el => {
   el.addEventListener('mouseenter', () => {
-    cursor?.classList.add('hover');
-    cursorRing?.classList.add('hover');
+    // No custom cursor to update; browser cursor remains default.
   });
   el.addEventListener('mouseleave', () => {
-    cursor?.classList.remove('hover');
-    cursorRing?.classList.remove('hover');
+    // No custom cursor to update.
   });
 });
 
