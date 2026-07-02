@@ -106,7 +106,7 @@ const TRANSLATIONS = {
     'footer.explore':          'Explore Products',
     'footer.hours':            'Mon \u2013 Sat<br>10:00 AM \u2013 6:00 PM',
     'footer.range':            'All types of Masala, RTE, RTC, Dehydrated & By-Products',
-    'footer.brand.desc':       'Rooted in tradition, driven by quality. Manufacturing premium spices, RTE, RTC, and dehydrated products with uncompromised hygiene since 2016.',
+    'footer.brand.desc':       'These are the values that are firmly established: tradition and quality. Since 2016, producing high quality spices, RTE, RTC and dehydrated product with guarantee of uncompromised hygiene.',
     'footer.copyright':        '\u00a9 2016 DEEPA Enterprises (Royalswad). All Rights Reserved.',
 
     /* --- Products page --- */
